@@ -1,7 +1,7 @@
 function remove(){
 try
   {
-    document.getElementById('add-to-cart-button').innerHTML = '';
+    document.getElementById('submit.add-to-cart').style.display = "none"
   }
 catch(err)
   {
