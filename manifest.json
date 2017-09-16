@@ -1,0 +1,14 @@
+{
+  "name": "BS purchase stopper",
+  "version": "0.0.1",
+  "description": "Disable Purchases of BS items.",
+  "content_scripts": [
+    {
+        "matches": [
+        "http://*.amazon.com/*","https://*.amazon.com/*"],
+        "js": ["main.js"],
+        "run_at": "document_end",
+        "all_frames": true
+    }
+  ]
+}
